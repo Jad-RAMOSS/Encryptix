@@ -1,6 +1,6 @@
 #Jad ElWahy
-#Encyptix Task1
-#ToDoApp
+#Encyptix Task2
+#Calculator
 
 import math as mt
 import tkinter as tk
@@ -26,8 +26,8 @@ class CalculatorApp:
         buttons =[
             ('7', 4, 0), ('8', 4, 1), ('9', 4, 2), ('/', 4, 3),
             ('4', 5, 0), ('5', 5, 1), ('6', 5, 2), ('*', 5, 3),
-            ('1', 6, 0), ('2', 6, 1), ('3', 6, 2), ('-', 6, 3),
-            ('0', 7, 0), ('.', 7, 1), ('=', 7, 2), ('+', 7, 3)
+            ('1', 6, 0), ('2', 6, 1), ('3', 6, 2), ('-', 6, 3),('(', 6, 4),
+            ('0', 7, 0), ('.', 7, 1), ('=', 7, 2), ('+', 7, 3),(')', 7, 4)
         ]
         # Create and place buttons
         for (text, row, col) in buttons:
